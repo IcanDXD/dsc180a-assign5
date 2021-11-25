@@ -8,7 +8,7 @@ RUN chown bam /projectHome
 
 RUN apt-get update --fix-missing &&\
         apt-get -y install \
-        git \
+        # git \
         nano \
         python3-pip
 
@@ -16,7 +16,7 @@ RUN pip3 install jupyterlab\
         scikit-learn
 
 
-RUN git clone https://github.com/byungheon-jeong/dsc180a-assign5.git /home/projectHome/
+# RUN git clone https://github.com/byungheon-jeong/dsc180a-assign5.git /home/projectHome/
 
 WORKDIR /home/projectHome/
 
