@@ -1,4 +1,4 @@
 {
-    "dockerhub-id": "b1jeong/capstone_asgn5",
+    "dockerhub-id": "b1jeong/capstone_assgn5:latest",
     "build-script": "python run.py test"
 }
