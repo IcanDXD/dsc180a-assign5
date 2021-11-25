@@ -19,4 +19,4 @@ accuracy = fclf.score(X_test, y_test)
 
 f1_score = sk.metrics.f1_score(y_test,fclf.predict(X_test), pos_label='Not Ice')
 
-print(accuracy, f1_score)
+print(f"raw accuracy: {accuracy} \n f1 score: {f1_score}")
